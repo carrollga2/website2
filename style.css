@@ -1,0 +1,44 @@
+body{
+    background-color:aqua;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    line-height:2;
+    font-size:2rem;
+    background-image: url(bg.jpg);
+    background-size:cover;
+    background-blend-mode: lighten;
+    
+   
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+.flex{
+    display:flex;
+    gap:2em;
+}
+
+.col1{
+    flex:1
+}
+
+.col2{
+    flex:2
+}
+
+.col2 p{
+    font-size:1.5rem;
+    text-align: justify;
+    
+}
+
+cite{
+    font-size:3rem;
+    font-style:italic;
+    font-weight:700;
+    line-height:2;
+    text-align: center;
+}
